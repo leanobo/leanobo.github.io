@@ -1,0 +1,78 @@
+.titulo {
+    text-align: center;
+    color: green;
+    margin: 1em 0;
+    background-color: black;
+    height: 10em;
+}
+.titulo h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10em;
+
+}
+.lista{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #02806bf8;
+    justify-content: space-around;
+}
+
+.enlace{ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #6d8002f8;
+    justify-content: space-around;
+    padding: 0.5em;
+    border-radius: 0.5em;
+};
+
+.enlace a:visited, .enlace a:link, .enlace a:active{
+    text-decoration: none;
+    color: black;
+}
+
+.enlace a:hover{
+    box-shadow: 5px 5px 10px black;
+}
+
+.marcoEnlace {
+    width: 20em;
+    height: 37em;
+    background-color: #b9b7b7;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 0.5em;
+    justify-content: center;
+    align-content: center;
+}
+
+.fotito {
+    width: 100%;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.fotito img{
+    width: 100%;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+.textoEnlace{
+    padding:  1em;
+    border-radius: 0 0 .5em .5em;
+    margin: 0.2em 0 0 0;
+}
+
+.marcoEnlace h2{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+
